@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84993D0C2B3D1A4B00A6883E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84993D0A2B3D1A4B00A6883E /* RegisterView.swift */; };
+		84993D0D2B3D1A4B00A6883E /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84993D0B2B3D1A4B00A6883E /* RegisterView.xib */; };
+		84993D102B3D2DB900A6883E /* MarcadorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84993D0E2B3D2DB900A6883E /* MarcadorViewController.swift */; };
+		84993D112B3D2DB900A6883E /* MarcadorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84993D0F2B3D2DB900A6883E /* MarcadorViewController.xib */; };
+		84993D142B3E27F700A6883E /* SaveGameScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84993D122B3E27F700A6883E /* SaveGameScore.swift */; };
+		84993D152B3E27F700A6883E /* SaveGameScore.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84993D132B3E27F700A6883E /* SaveGameScore.xib */; };
+		84993D182B3E68D300A6883E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84993D162B3E68D300A6883E /* CustomTableViewCell.swift */; };
+		84993D192B3E68D300A6883E /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84993D172B3E68D300A6883E /* CustomTableViewCell.xib */; };
+		84D42E692B3E80D4006BB1C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84D42E682B3E80D4006BB1C3 /* GoogleService-Info.plist */; };
+		84D42E6C2B3E812F006BB1C3 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 84D42E6B2B3E812F006BB1C3 /* GoogleSignIn */; };
+		84D42E6E2B3E812F006BB1C3 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84D42E6D2B3E812F006BB1C3 /* GoogleSignInSwift */; };
 		84F854CB2B3B7CAF00DC9527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F854CA2B3B7CAF00DC9527 /* AppDelegate.swift */; };
 		84F854CD2B3B7CAF00DC9527 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F854CC2B3B7CAF00DC9527 /* SceneDelegate.swift */; };
 		84F854CF2B3B7CAF00DC9527 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F854CE2B3B7CAF00DC9527 /* ViewController.swift */; };
@@ -14,9 +25,43 @@
 		84F854D52B3B7CAF00DC9527 /* movimania_firebase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84F854D32B3B7CAF00DC9527 /* movimania_firebase.xcdatamodeld */; };
 		84F854D72B3B7CB000DC9527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F854D62B3B7CB000DC9527 /* Assets.xcassets */; };
 		84F854DA2B3B7CB000DC9527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F854D82B3B7CB000DC9527 /* LaunchScreen.storyboard */; };
+		84F854E22B3B7E5900DC9527 /* juegoMovimania.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F854E12B3B7E5900DC9527 /* juegoMovimania.xib */; };
+		84F854E42B3B7FB800DC9527 /* juegoMovimania.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F854E32B3B7FB800DC9527 /* juegoMovimania.swift */; };
+		84F854E72B3B895700DC9527 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F854E52B3B895700DC9527 /* HomeViewController.swift */; };
+		84F854E82B3B895700DC9527 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F854E62B3B895700DC9527 /* HomeViewController.xib */; };
+		84F854EA2B3B9F4D00DC9527 /* cardFondo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84F854E92B3B9F4C00DC9527 /* cardFondo.jpeg */; };
+		84F854F32B3B9F5E00DC9527 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F854EB2B3B9F5E00DC9527 /* 5.jpg */; };
+		84F854F42B3B9F5E00DC9527 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F854EC2B3B9F5E00DC9527 /* 4.jpg */; };
+		84F854F52B3B9F5E00DC9527 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F854ED2B3B9F5E00DC9527 /* 8.jpg */; };
+		84F854F62B3B9F5E00DC9527 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F854EE2B3B9F5E00DC9527 /* 6.jpg */; };
+		84F854F72B3B9F5E00DC9527 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F854EF2B3B9F5E00DC9527 /* 3.jpg */; };
+		84F854F82B3B9F5E00DC9527 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F854F02B3B9F5E00DC9527 /* 2.jpg */; };
+		84F854F92B3B9F5E00DC9527 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F854F12B3B9F5E00DC9527 /* 1.jpg */; };
+		84F854FA2B3B9F5E00DC9527 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F854F22B3B9F5E00DC9527 /* 7.jpg */; };
+		84F854FD2B3B9F7000DC9527 /* aplausos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84F854FB2B3B9F7000DC9527 /* aplausos.mp3 */; };
+		84F854FE2B3B9F7000DC9527 /* dibujos.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F854FC2B3B9F7000DC9527 /* dibujos.png */; };
+		84F8550D2B3BC2AB00DC9527 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 84F8550C2B3BC2AB00DC9527 /* FirebaseAuth */; };
+		84F8550F2B3BC2AB00DC9527 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 84F8550E2B3BC2AB00DC9527 /* FirebaseAuthCombine-Community */; };
+		84F855132B3BC2AB00DC9527 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 84F855122B3BC2AB00DC9527 /* FirebaseDatabase */; };
+		84F855152B3BC2AB00DC9527 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84F855142B3BC2AB00DC9527 /* FirebaseDatabaseSwift */; };
+		84F855192B3BC2AB00DC9527 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 84F855182B3BC2AB00DC9527 /* FirebaseFirestore */; };
+		84F8551B2B3BC2AB00DC9527 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 84F8551A2B3BC2AB00DC9527 /* FirebaseFirestoreCombine-Community */; };
+		84F8551D2B3BC2AB00DC9527 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84F8551C2B3BC2AB00DC9527 /* FirebaseFirestoreSwift */; };
+		84F855272B3BC2AB00DC9527 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 84F855262B3BC2AB00DC9527 /* FirebaseInstallations */; };
+		84F855332B3BC2AB00DC9527 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 84F855322B3BC2AB00DC9527 /* FirebaseStorage */; };
+		84F855352B3BC2AB00DC9527 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 84F855342B3BC2AB00DC9527 /* FirebaseStorageCombine-Community */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84993D0A2B3D1A4B00A6883E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		84993D0B2B3D1A4B00A6883E /* RegisterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
+		84993D0E2B3D2DB900A6883E /* MarcadorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcadorViewController.swift; sourceTree = "<group>"; };
+		84993D0F2B3D2DB900A6883E /* MarcadorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarcadorViewController.xib; sourceTree = "<group>"; };
+		84993D122B3E27F700A6883E /* SaveGameScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveGameScore.swift; sourceTree = "<group>"; };
+		84993D132B3E27F700A6883E /* SaveGameScore.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaveGameScore.xib; sourceTree = "<group>"; };
+		84993D162B3E68D300A6883E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		84993D172B3E68D300A6883E /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		84D42E682B3E80D4006BB1C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		84F854C72B3B7CAF00DC9527 /* movimania_firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movimania_firebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F854CA2B3B7CAF00DC9527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84F854CC2B3B7CAF00DC9527 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +71,21 @@
 		84F854D62B3B7CB000DC9527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F854D92B3B7CB000DC9527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F854DB2B3B7CB000DC9527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F854E12B3B7E5900DC9527 /* juegoMovimania.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = juegoMovimania.xib; sourceTree = "<group>"; };
+		84F854E32B3B7FB800DC9527 /* juegoMovimania.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juegoMovimania.swift; sourceTree = "<group>"; };
+		84F854E52B3B895700DC9527 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84F854E62B3B895700DC9527 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		84F854E92B3B9F4C00DC9527 /* cardFondo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cardFondo.jpeg; path = ../../../../Desktop/MoviMania/MoviMania/cardFondo.jpeg; sourceTree = "<group>"; };
+		84F854EB2B3B9F5E00DC9527 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = ../../../../Desktop/MoviMania/MoviMania/5.jpg; sourceTree = "<group>"; };
+		84F854EC2B3B9F5E00DC9527 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = ../../../../Desktop/MoviMania/MoviMania/4.jpg; sourceTree = "<group>"; };
+		84F854ED2B3B9F5E00DC9527 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 8.jpg; path = ../../../../Desktop/MoviMania/MoviMania/8.jpg; sourceTree = "<group>"; };
+		84F854EE2B3B9F5E00DC9527 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpg; path = ../../../../Desktop/MoviMania/MoviMania/6.jpg; sourceTree = "<group>"; };
+		84F854EF2B3B9F5E00DC9527 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = ../../../../Desktop/MoviMania/MoviMania/3.jpg; sourceTree = "<group>"; };
+		84F854F02B3B9F5E00DC9527 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../../Desktop/MoviMania/MoviMania/2.jpg; sourceTree = "<group>"; };
+		84F854F12B3B9F5E00DC9527 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../../Desktop/MoviMania/MoviMania/1.jpg; sourceTree = "<group>"; };
+		84F854F22B3B9F5E00DC9527 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7.jpg; path = ../../../../Desktop/MoviMania/MoviMania/7.jpg; sourceTree = "<group>"; };
+		84F854FB2B3B9F7000DC9527 /* aplausos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = aplausos.mp3; path = ../../../../Desktop/MoviMania/MoviMania/aplausos.mp3; sourceTree = "<group>"; };
+		84F854FC2B3B9F7000DC9527 /* dibujos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dibujos.png; path = ../../../../Desktop/MoviMania/MoviMania/dibujos.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +93,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F855132B3BC2AB00DC9527 /* FirebaseDatabase in Frameworks */,
+				84F855192B3BC2AB00DC9527 /* FirebaseFirestore in Frameworks */,
+				84D42E6C2B3E812F006BB1C3 /* GoogleSignIn in Frameworks */,
+				84D42E6E2B3E812F006BB1C3 /* GoogleSignInSwift in Frameworks */,
+				84F8551D2B3BC2AB00DC9527 /* FirebaseFirestoreSwift in Frameworks */,
+				84F8550D2B3BC2AB00DC9527 /* FirebaseAuth in Frameworks */,
+				84F855152B3BC2AB00DC9527 /* FirebaseDatabaseSwift in Frameworks */,
+				84F855352B3BC2AB00DC9527 /* FirebaseStorageCombine-Community in Frameworks */,
+				84F8550F2B3BC2AB00DC9527 /* FirebaseAuthCombine-Community in Frameworks */,
+				84F855332B3BC2AB00DC9527 /* FirebaseStorage in Frameworks */,
+				84F8551B2B3BC2AB00DC9527 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				84F855272B3BC2AB00DC9527 /* FirebaseInstallations in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +130,18 @@
 		84F854C92B3B7CAF00DC9527 /* movimania_firebase */ = {
 			isa = PBXGroup;
 			children = (
+				84D42E682B3E80D4006BB1C3 /* GoogleService-Info.plist */,
+				84F854FB2B3B9F7000DC9527 /* aplausos.mp3 */,
+				84F854FC2B3B9F7000DC9527 /* dibujos.png */,
+				84F854F12B3B9F5E00DC9527 /* 1.jpg */,
+				84F854F02B3B9F5E00DC9527 /* 2.jpg */,
+				84F854EF2B3B9F5E00DC9527 /* 3.jpg */,
+				84F854EC2B3B9F5E00DC9527 /* 4.jpg */,
+				84F854EB2B3B9F5E00DC9527 /* 5.jpg */,
+				84F854EE2B3B9F5E00DC9527 /* 6.jpg */,
+				84F854F22B3B9F5E00DC9527 /* 7.jpg */,
+				84F854ED2B3B9F5E00DC9527 /* 8.jpg */,
+				84F854E92B3B9F4C00DC9527 /* cardFondo.jpeg */,
 				84F854CA2B3B7CAF00DC9527 /* AppDelegate.swift */,
 				84F854CC2B3B7CAF00DC9527 /* SceneDelegate.swift */,
 				84F854CE2B3B7CAF00DC9527 /* ViewController.swift */,
@@ -66,6 +150,18 @@
 				84F854D82B3B7CB000DC9527 /* LaunchScreen.storyboard */,
 				84F854DB2B3B7CB000DC9527 /* Info.plist */,
 				84F854D32B3B7CAF00DC9527 /* movimania_firebase.xcdatamodeld */,
+				84F854E12B3B7E5900DC9527 /* juegoMovimania.xib */,
+				84F854E32B3B7FB800DC9527 /* juegoMovimania.swift */,
+				84F854E52B3B895700DC9527 /* HomeViewController.swift */,
+				84F854E62B3B895700DC9527 /* HomeViewController.xib */,
+				84993D0A2B3D1A4B00A6883E /* RegisterView.swift */,
+				84993D0B2B3D1A4B00A6883E /* RegisterView.xib */,
+				84993D0E2B3D2DB900A6883E /* MarcadorViewController.swift */,
+				84993D0F2B3D2DB900A6883E /* MarcadorViewController.xib */,
+				84993D122B3E27F700A6883E /* SaveGameScore.swift */,
+				84993D132B3E27F700A6883E /* SaveGameScore.xib */,
+				84993D162B3E68D300A6883E /* CustomTableViewCell.swift */,
+				84993D172B3E68D300A6883E /* CustomTableViewCell.xib */,
 			);
 			path = movimania_firebase;
 			sourceTree = "<group>";
@@ -86,6 +182,20 @@
 			dependencies = (
 			);
 			name = movimania_firebase;
+			packageProductDependencies = (
+				84F8550C2B3BC2AB00DC9527 /* FirebaseAuth */,
+				84F8550E2B3BC2AB00DC9527 /* FirebaseAuthCombine-Community */,
+				84F855122B3BC2AB00DC9527 /* FirebaseDatabase */,
+				84F855142B3BC2AB00DC9527 /* FirebaseDatabaseSwift */,
+				84F855182B3BC2AB00DC9527 /* FirebaseFirestore */,
+				84F8551A2B3BC2AB00DC9527 /* FirebaseFirestoreCombine-Community */,
+				84F8551C2B3BC2AB00DC9527 /* FirebaseFirestoreSwift */,
+				84F855262B3BC2AB00DC9527 /* FirebaseInstallations */,
+				84F855322B3BC2AB00DC9527 /* FirebaseStorage */,
+				84F855342B3BC2AB00DC9527 /* FirebaseStorageCombine-Community */,
+				84D42E6B2B3E812F006BB1C3 /* GoogleSignIn */,
+				84D42E6D2B3E812F006BB1C3 /* GoogleSignInSwift */,
+			);
 			productName = movimania_firebase;
 			productReference = 84F854C72B3B7CAF00DC9527 /* movimania_firebase.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +224,10 @@
 				Base,
 			);
 			mainGroup = 84F854BE2B3B7CAF00DC9527;
+			packageReferences = (
+				84F854FF2B3BC2AB00DC9527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				84D42E6A2B3E812F006BB1C3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = 84F854C82B3B7CAF00DC9527 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,9 +242,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F854F72B3B9F5E00DC9527 /* 3.jpg in Resources */,
+				84F854F92B3B9F5E00DC9527 /* 1.jpg in Resources */,
+				84F854F42B3B9F5E00DC9527 /* 4.jpg in Resources */,
+				84F854FD2B3B9F7000DC9527 /* aplausos.mp3 in Resources */,
+				84F854FA2B3B9F5E00DC9527 /* 7.jpg in Resources */,
+				84F854EA2B3B9F4D00DC9527 /* cardFondo.jpeg in Resources */,
 				84F854DA2B3B7CB000DC9527 /* LaunchScreen.storyboard in Resources */,
+				84F854F52B3B9F5E00DC9527 /* 8.jpg in Resources */,
+				84993D192B3E68D300A6883E /* CustomTableViewCell.xib in Resources */,
+				84F854F62B3B9F5E00DC9527 /* 6.jpg in Resources */,
+				84993D112B3D2DB900A6883E /* MarcadorViewController.xib in Resources */,
+				84F854F82B3B9F5E00DC9527 /* 2.jpg in Resources */,
+				84993D152B3E27F700A6883E /* SaveGameScore.xib in Resources */,
 				84F854D72B3B7CB000DC9527 /* Assets.xcassets in Resources */,
+				84F854E82B3B895700DC9527 /* HomeViewController.xib in Resources */,
+				84993D0D2B3D1A4B00A6883E /* RegisterView.xib in Resources */,
+				84F854F32B3B9F5E00DC9527 /* 5.jpg in Resources */,
+				84F854E22B3B7E5900DC9527 /* juegoMovimania.xib in Resources */,
+				84F854FE2B3B9F7000DC9527 /* dibujos.png in Resources */,
 				84F854D22B3B7CAF00DC9527 /* Main.storyboard in Resources */,
+				84D42E692B3E80D4006BB1C3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +276,13 @@
 				84F854D52B3B7CAF00DC9527 /* movimania_firebase.xcdatamodeld in Sources */,
 				84F854CF2B3B7CAF00DC9527 /* ViewController.swift in Sources */,
 				84F854CB2B3B7CAF00DC9527 /* AppDelegate.swift in Sources */,
+				84993D0C2B3D1A4B00A6883E /* RegisterView.swift in Sources */,
+				84993D142B3E27F700A6883E /* SaveGameScore.swift in Sources */,
+				84F854E42B3B7FB800DC9527 /* juegoMovimania.swift in Sources */,
+				84993D182B3E68D300A6883E /* CustomTableViewCell.swift in Sources */,
 				84F854CD2B3B7CAF00DC9527 /* SceneDelegate.swift in Sources */,
+				84F854E72B3B895700DC9527 /* HomeViewController.swift in Sources */,
+				84993D102B3D2DB900A6883E /* MarcadorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,8 +440,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,8 +470,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,6 +509,88 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84D42E6A2B3E812F006BB1C3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		84F854FF2B3BC2AB00DC9527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84D42E6B2B3E812F006BB1C3 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84D42E6A2B3E812F006BB1C3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		84D42E6D2B3E812F006BB1C3 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84D42E6A2B3E812F006BB1C3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		84F8550C2B3BC2AB00DC9527 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84F854FF2B3BC2AB00DC9527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		84F8550E2B3BC2AB00DC9527 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84F854FF2B3BC2AB00DC9527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		84F855122B3BC2AB00DC9527 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84F854FF2B3BC2AB00DC9527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		84F855142B3BC2AB00DC9527 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84F854FF2B3BC2AB00DC9527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		84F855182B3BC2AB00DC9527 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84F854FF2B3BC2AB00DC9527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		84F8551A2B3BC2AB00DC9527 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84F854FF2B3BC2AB00DC9527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		84F8551C2B3BC2AB00DC9527 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84F854FF2B3BC2AB00DC9527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		84F855262B3BC2AB00DC9527 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84F854FF2B3BC2AB00DC9527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		84F855322B3BC2AB00DC9527 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84F854FF2B3BC2AB00DC9527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		84F855342B3BC2AB00DC9527 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84F854FF2B3BC2AB00DC9527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		84F854D32B3B7CAF00DC9527 /* movimania_firebase.xcdatamodeld */ = {

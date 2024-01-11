@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="movimania_firebase" customModuleProvider="target">
+            <connections>
+                <outlet property="CerrarSesion" destination="7sV-2J-vwi" id="OL1-EN-ykR"/>
+                <outlet property="pasarAlJuego" destination="mn0-Jg-cPe" id="2Pd-aV-tDN"/>
+                <outlet property="userName" destination="MJp-YJ-fl0" id="8z7-KZ-T0v"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mn0-Jg-cPe">
+                    <rect key="frame" x="20" y="364" width="390" height="35"/>
+                    <color key="tintColor" systemColor="labelColor"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Iniciar juego" cornerStyle="capsule"/>
+                    <connections>
+                        <action selector="pasarAlJuegoButton:" destination="-1" eventType="touchUpInside" id="Jxp-to-npc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sV-2J-vwi">
+                    <rect key="frame" x="16" y="853" width="398" height="35"/>
+                    <color key="tintColor" systemColor="systemRedColor"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="tinted" title="Cerrar Sesion "/>
+                    <connections>
+                        <action selector="close:" destination="-1" eventType="touchUpInside" id="n0S-lu-GeT"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJp-YJ-fl0">
+                    <rect key="frame" x="10" y="69" width="410" height="0.0"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dibujos" translatesAutoresizingMaskIntoConstraints="NO" id="09w-Uq-ucJ">
+                    <rect key="frame" x="20" y="94" width="390" height="250"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="ftb-kT-pIg"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udD-2a-KNv">
+                    <rect key="frame" x="16" y="419" width="398" height="35"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Ver mi marcador" cornerStyle="capsule"/>
+                    <connections>
+                        <action selector="pasarAlMarcador:" destination="-1" eventType="touchUpInside" id="s0B-r5-B4u"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="7sV-2J-vwi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="8VJ-uO-n2r"/>
+                <constraint firstItem="mn0-Jg-cPe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="D0r-1R-T21"/>
+                <constraint firstAttribute="trailing" secondItem="MJp-YJ-fl0" secondAttribute="trailing" constant="10" id="EXN-r7-s5Z"/>
+                <constraint firstItem="MJp-YJ-fl0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="Fer-LU-Hwh"/>
+                <constraint firstItem="09w-Uq-ucJ" firstAttribute="top" secondItem="MJp-YJ-fl0" secondAttribute="bottom" constant="25" id="MrP-NS-m6a"/>
+                <constraint firstItem="7sV-2J-vwi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="UNm-RI-Zf2"/>
+                <constraint firstItem="09w-Uq-ucJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Y53-Dd-jd0"/>
+                <constraint firstItem="udD-2a-KNv" firstAttribute="top" secondItem="mn0-Jg-cPe" secondAttribute="bottom" constant="20" id="Ycy-qn-83B"/>
+                <constraint firstItem="mn0-Jg-cPe" firstAttribute="top" secondItem="09w-Uq-ucJ" secondAttribute="bottom" constant="20" id="ZCZ-0L-WWG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7sV-2J-vwi" secondAttribute="trailing" constant="16" id="bbs-ly-Twk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="udD-2a-KNv" secondAttribute="trailing" constant="16" id="cdn-9Y-UDg"/>
+                <constraint firstItem="MJp-YJ-fl0" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="dXn-nW-J7p"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="09w-Uq-ucJ" secondAttribute="trailing" constant="20" id="fTS-Ru-mMk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mn0-Jg-cPe" secondAttribute="trailing" constant="20" id="ggb-XB-dNz"/>
+                <constraint firstItem="udD-2a-KNv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="ocO-AB-jj6"/>
+                <constraint firstItem="MJp-YJ-fl0" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="s84-wn-1Nx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="7sV-2J-vwi" secondAttribute="bottom" constant="10" id="yfN-la-Op9"/>
+            </constraints>
+            <point key="canvasLocation" x="-19.534883720930232" y="19.313304721030043"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dibujos" width="2000" height="1346"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
